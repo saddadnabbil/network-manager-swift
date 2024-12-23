@@ -26,7 +26,7 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 15) {
             // No Special Rules Text Field
-            Text("No special rules:")
+            Text("Special Rules")
                 .font(.headline)
             TextField("Enter text", text: $noSpecialRules)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
